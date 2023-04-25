@@ -1,0 +1,175 @@
+@charset "UTF-8";
+	body {
+		background: #65533d url(images/background.jpg) no-repeat center fixed;
+		margin: 0 10%;
+		font-family: sans-serif;
+	}
+	main {
+  		padding: 5px;
+  		align: center;
+  		background-color: #b4a797;
+  		width: 1200px;
+		margin: 10px;
+	}
+
+
+/*Text*/
+
+	h1 {
+		font: normal 3.3em "EB Garamond", Georgia, serif;
+		color: #2b211f;
+		text-align: center;
+		text-transform: uppercase;
+		border-bottom: 1px solid #2b211f;
+		margin-top: 30 px;
+	}
+	h2 {
+		font: normal 2.5em "EB Garamond", Georgia, serif;
+		color: #2b211f;
+		text-align: center;
+	}
+	h3 {
+		font: normal 1.6em "EB Garamond", Georgia, serif;
+		color: #1b132f;
+		text-align: center;
+	}
+	h1 + h2 + p {
+  		text-align: center;
+	}
+	p {
+  		text-align: center;
+    		font: normal 1.0em "EB Garamond", Georgia, serif;
+	}
+
+/*Lists*/
+
+	ul {
+		list-style-type: none;
+  		text-align: center;
+		margin: 0;
+  		padding: 0;
+	}
+	li {
+    		display: inline;
+   		padding: 15px;
+		font: normal 26px "EB Garamond", Georgia, serif;
+		color: #1b132f;
+	}
+
+	/*Navigation*/
+
+		#navigation ul {
+    			list-style-type: none;
+    			overflow: hidden;
+			height: 100px;
+			margin: 0;
+    			padding: 0;
+    			background-color: #552e21;
+  		}
+  
+		#navigation li {
+    			float: right;
+ 		}
+ 		#navigation li:first-child {
+    			float: left;
+    			display: block;
+    			color: #b4a797;
+    			font-size: larger;
+    			text-align: center;
+    			padding: 14px 16px;
+    			text-decoration: none;
+  			-ms-transform: translateY(-12%);
+  			transform: translateY(-12%);
+ 		}
+  
+		#navigation li a {
+    			display: block;
+    			color: #b4a797;
+    			text-align: center;
+    			padding: 14px 16px;
+    			text-decoration: none;
+ 		}
+  		#navigation li a:hover {
+    			background-color: #2b211f;
+  		}
+
+/*Footer*/
+
+	footer{
+		background-color: #552e21 ;
+		padding: 10px;
+		text-align: center;
+		color: #f5f3e6;
+	}
+
+
+	footer img {
+		width: 40px;
+		height: 40px;
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+
+/*Other*/
+
+img {
+	max-width: 100%;
+			margin: 0;
+    			padding: 0;
+}
+a img {
+
+		object-fit: cover;
+  		width: 250px;
+  		height: 250px
+}
+td, th {
+      text-align: center;
+      padding: 5px 20px;
+}
+th a{
+	color: #1b132f;
+}
+table {
+      text-align: center;
+      margin: auto;
+  table-layout: fixed ;
+  width: 100% ;
+}
+fieldset + legend {
+	color: #1b132f;
+}
+
+
+.bakery{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, auto));   
+align-items: center;
+cursor: pointer;
+padding-top: 1rem;
+text-align: center;
+gap: 1rem; 
+}
+
+.product-box{
+padding: 0px 20px 10px 20px;
+background: #995f45;
+align-items: center;
+border-radius: 2px;
+margin: 10px;
+}
+
+.product image{
+align-items: center;
+  width: 170px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
